@@ -91,6 +91,12 @@
                         <span id="situacao"></span>
                         <img src="img/icones/vv.png" width="100px">
                 </div>
+                     <div class="col">
+                    <h2>Anoitecer | <span id="anoitecer"></span></h2>
+                    <p>
+                        <span id="situacao"></span>
+                        <img src="img/icones/02n.png" width="100px">
+                </div>
             </div>
         </div>
     </body>

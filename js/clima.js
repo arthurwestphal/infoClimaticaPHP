@@ -31,6 +31,10 @@ function getClima(){
             var descDataAmanhecer = dataAmanhecer.getHours()+':'+dataAmanhecer.getMinutes();
             $('#amanhecer').html(descDataAmanhecer);
             
+                var dataAnoitecer = new Date(data.sys.sunset*1000);
+            var descdataAnoitecer = dataAnoitecer.getHours()+':'+dataAnoitecer.getMinutes();
+            $('#anoitecer').html(descdataAnoitecer);
+            
             var icone = data.weather[0].icon;
             var caminhoIcone = 'img/icones/'+icone+'.png';
             $('#icone').attr('src', caminhoIcone);
